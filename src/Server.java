@@ -4,7 +4,7 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class Server {
-   private ServerSocket serverSocket;
+   private ServerSocket serverSocket;//server
 
     public Server(ServerSocket serverSocket) {
         this.serverSocket = serverSocket;
